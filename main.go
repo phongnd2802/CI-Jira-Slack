@@ -8,6 +8,11 @@ func Add(a, b int) int {
 
 func Test() {
 	fmt.Println("Test function")
+
+}
+
+func Subtract(a, b int) int {
+	return a - b
 }
 
 func IsPrime(n int) bool {
